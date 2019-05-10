@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Onsite_CTA" verbose="1" >
+  <test name="CTA_RegressionTest" >
+    <classes>
+     
+      <class name="OnsiteMarketingScenarios_CTA.CTAPopup"/>
+      <class name="OnsiteMarketingScenarios_CTA.CTAPullout"/>
+      <class name="OnsiteMarketingScenarios_CTA.CTAStickyBar"/>
+      <class name="OnsiteMarketingScenarios_CTA.CTAInline"/>
+      <class name="OnsiteMarketingScenarios_CTA.CTABanner"/>
+      <class name="OnsiteMarketingScenarios_CTA.CTAPopup_PurchaseNEdit"/>
+      <class name="OnsiteMarketingScenarios_CTA.CTAPopup_Timer"/>
+      <class name="OnsiteMarketingScenarios_CTA.CTAPopupORConditions"/>
+      
+    </classes>
+ </test>
+</suite>

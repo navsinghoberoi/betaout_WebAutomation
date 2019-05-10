@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Onsite_CTA with Promocode" verbose="1" >
+  <test name="CTA with Promocode_RegressionTest" >
+    <classes>
+     
+      <class name="PromocodeScenarios_CTA.Promocode_CTAPopup"/>
+      <class name="PromocodeScenarios_CTA.Promocode_CTAPullout"/>
+      <class name="PromocodeScenarios_CTA.Promocode_CTAStickybar"/>
+      <class name="PromocodeScenarios_CTA.Promocode_CTAInline"/>
+      <class name="PromocodeScenarios_CTA.Promocode_CTABanner"/>
+      
+    </classes>
+ </test>
+</suite>

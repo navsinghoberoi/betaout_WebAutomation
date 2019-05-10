@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Regression Scenarios " verbose="1" >
+  <test name="Regression Scenarios Test" >
+    <classes>
+     
+  
+	  <class name="VerifyLogs.VerifyLogsForAllLinks_QA"/>
+ 
+      <class name="OnsiteMarketingScenarios_CTA.CTAPopup"/>
+      <class name="OnsiteMarketingScenarios_CTA.CTAPullout"/>
+      <class name="OnsiteMarketingScenarios_CTA.CTAStickyBar"/>
+      <class name="OnsiteMarketingScenarios_CTA.CTAInline"/>
+      <class name="OnsiteMarketingScenarios_CTA.CTABanner"/>
+      <class name="OnsiteMarketingScenarios_CTA.CTAPopup_PurchaseNEdit"/>
+      <class name="OnsiteMarketingScenarios_CTA.CTAPopup_Timer"/>
+      <class name="OnsiteMarketingScenarios_CTA.CTAPopupORConditions"/>
+    
+      <class name="OnsiteMarketingScenarios_EmailSignup.EmailSignupPopup"/>
+      <class name="OnsiteMarketingScenarios_EmailSignup.EmailSignupPullout"/>
+      <class name="OnsiteMarketingScenarios_EmailSignup.EmailSignupStickyBar"/>
+      <class name="OnsiteMarketingScenarios_EmailSignup.EmailSignupInline"/>
+      <class name="OnsiteMarketingScenarios_EmailSignup.EmailSignupBanner"/>
+ 
+      <class name="OnsiteMarketingScenarios_Mobile.MobilePopup"/>
+      <class name="OnsiteMarketingScenarios_Mobile.MobilePullout"/>
+      <class name="OnsiteMarketingScenarios_Mobile.MobileStickyBar"/>
+      <class name="OnsiteMarketingScenarios_Mobile.MobileInline"/>
+      <class name="OnsiteMarketingScenarios_Mobile.MobileBanner"/>
+ 
+      <class name="PromocodeScenarios_CTA.Promocode_CTAPopup"/>
+      <class name="PromocodeScenarios_CTA.Promocode_CTAPullout"/>
+      <class name="PromocodeScenarios_CTA.Promocode_CTAStickybar"/>
+      <class name="PromocodeScenarios_CTA.Promocode_CTAInline"/>
+      <class name="PromocodeScenarios_CTA.Promocode_CTABanner"/>
+ 
+      <class name="PromocodeScenarios_EmailSignup.Promocode_EmailSignupPopup"/>
+      <class name="PromocodeScenarios_EmailSignup.Promocode_EmailSignupPullout"/>
+      <class name="PromocodeScenarios_EmailSignup.Promocode_EmailSignupStickyBar"/>
+      <class name="PromocodeScenarios_EmailSignup.Promocode_EmailSignupInline"/>
+      <class name="PromocodeScenarios_EmailSignup.Promocode_EmailSignupBanner"/>
+ 
+      <class name="PromocodeScenarios_Mobile.Promocode_MobilePopup"/>
+      <class name="PromocodeScenarios_Mobile.Promocode_MobilePullout"/>
+      <class name="PromocodeScenarios_Mobile.Promocode_MobileStickyBar"/>
+      <class name="PromocodeScenarios_Mobile.Promocode_MobileInline"/>
+      <class name="PromocodeScenarios_Mobile.Promocode_MobileBanner"/> 
+ 
+   
+      <class name="EmailMarketingScenarios.EmailMarketing_Bounced"/>
+      <class name="EmailMarketingScenarios.EmailMarketing_Broadcast"/>
+      <class name="EmailMarketingScenarios.EmailMarketing_DuplicateScenarios"/>
+      <class name="EmailMarketingScenarios.EmailMarketing_EventTriggerAddToCart"/>
+      <class name="EmailMarketingScenarios.EmailMarketing_EventTriggerViewCart"/>
+      <class name="EmailMarketingScenarios.EmailMarketing_Fallback"/> 
+      <class name="EmailMarketingScenarios.EmailMarketing_OneToOneCampaign"/>
+      <class name="EmailMarketingScenarios.EmailMarketing_Promocode"/>
+      <class name="EmailMarketingScenarios.EmailMarketing_TestMail"/>  
+      <class name="EmailMarketingScenarios.EmailMarketing_Overview"/>
+      <class name="EmailMarketingScenarios.EmailMarketing_Recurring_Daily"/>
+      <class name="EmailMarketingScenarios.EmailMarketing_Recurring_Monthly"/>
+      <class name="EmailMarketingScenarios.EmailMarketing_Recurring_Weekly"/>
+ 
+      <class name="CartRecoveryScenarios.CartRecovery_Campaign_1sequence_Fallback"/>
+      <class name="CartRecoveryScenarios.CartRecoveryWithPromocode2sequences"/>
+      
+      <class name="SMSMarketingScenarios.SMSMarketing_BroadcastCampaign"/>
+	  <class name="SMSMarketingScenarios.SMSMarketing_OneToOneCampaign"/>
+	  <class name="SMSMarketingScenarios.SMSMarketing_Overview"/>
+	  <class name="SMSMarketingScenarios.SMSMarketing_RecurringDaily"/>
+	  <class name="SMSMarketingScenarios.SMSMarketing_RecurringMonthly"/>
+	  <class name="SMSMarketingScenarios.SMSMarketing_RecurringWeekly"/>
+	  <class name="SMSMarketingScenarios.SMSMarketing_SupressionBlacklist"/>
+	  <class name="SMSMarketingScenarios.SMSMarketing_SupressionDND"/>
+	  <class name="SMSMarketingScenarios.SMSMarketing_SupressionInvalidSubscriber"/>
+	  <class name="SMSMarketingScenarios.SMSMarketing_TestSMS"/>
+     
+      <!-- class name="DataImport_Scenarios.BounceListImport_QA"/>
+      <class name="DataImport_Scenarios.OrderImport_QA"/>
+      <class name="DataImport_Scenarios.ProductImport_QA"/>
+   	  <class name="DataImport_Scenarios.SMSSuppressionBlacklistImport_QA"/>   
+      <class name="DataImport_Scenarios.SpamComplaintsListImport_QA"/>
+      <class name="DataImport_Scenarios.UnsubscribeListImport_QA"/>
+      <class name="DataImport_Scenarios.UserImport_QA"/-->
+      
+    </classes>
+ </test>
+</suite>

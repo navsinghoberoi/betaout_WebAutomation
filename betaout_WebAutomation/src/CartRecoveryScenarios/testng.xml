@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Email Marketing Scenarios" verbose="1" >
+  <test name="Email Marketing Smoke Scenarios" >
+    <classes>
+     
+      <class name="CartRecoveryScenarios.CartRecovery_2seq_RecoveredCart"/>
+      <class name="CartRecoveryScenarios.CartRecovery_Campaign_1sequence_Fallback"/>
+      <class name="CartRecoveryScenarios.CartRecovery_Campaign_2sequences"/>
+      <class name="CartRecoveryScenarios.CartRecoveryWithPromocode"/>
+      <class name="CartRecoveryScenarios.CartRecoveryWithPromocode2sequences"/>
+      
+          </classes>
+ </test>
+</suite>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Onsite_Mobile with Promocode" verbose="1" >
+  <test name="Promocode Email_RegressionTest" >
+    <classes>
+     
+      <class name="PromocodeScenarios_Mobile.Promocode_MobilePopup"/>
+      <class name="PromocodeScenarios_Mobile.Promocode_MobilePullout"/>
+      <class name="PromocodeScenarios_Mobile.Promocode_MobileStickyBar"/>
+      <class name="PromocodeScenarios_Mobile.Promocode_MobileInline"/>
+      <class name="PromocodeScenarios_Mobile.Promocode_MobileBanner"/> 
+      
+    </classes>
+ </test>
+</suite>

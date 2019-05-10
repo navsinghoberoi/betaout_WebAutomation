@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SMS Marketing Scenarios" verbose="1" >
+  <test name="SMS Marketing Smoke Scenarios" >
+    <classes>
+     
+      <class name="SMSMarketingScenarios.SMSMarketing_BroadcastCampaign"/>
+	  <class name="SMSMarketingScenarios.SMSMarketing_OneToOneCampaign"/>
+	  <class name="SMSMarketingScenarios.SMSMarketing_Overview"/>
+	  <class name="SMSMarketingScenarios.SMSMarketing_RecurringDaily"/>
+	  <class name="SMSMarketingScenarios.SMSMarketing_RecurringMonthly"/>
+	  <class name="SMSMarketingScenarios.SMSMarketing_RecurringWeekly"/>
+	  <class name="SMSMarketingScenarios.SMSMarketing_SupressionBlacklist"/>
+	  <class name="SMSMarketingScenarios.SMSMarketing_SupressionDND"/>
+	  <class name="SMSMarketingScenarios.SMSMarketing_SupressionInvalidSubscriber"/>
+	  <class name="SMSMarketingScenarios.SMSMarketing_TestSMS"/>
+	         
+      
+    </classes>
+ </test>
+</suite>

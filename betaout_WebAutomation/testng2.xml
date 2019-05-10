@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Regression Scenarios " verbose="1" >
+  <test name="Regression Scenarios Test" >
+    <classes>
+     
+  
+	  <class name="VerifyLogs.VerifyLogsForAllLinks_QA"/>
+  
+      <class name="EmailMarketingScenarios.EmailMarketing_Bounced"/>
+      <class name="EmailMarketingScenarios.EmailMarketing_Broadcast"/>
+      <class name="EmailMarketingScenarios.EmailMarketing_DuplicateScenarios"/>
+      <class name="EmailMarketingScenarios.EmailMarketing_EventTriggerAddToCart"/>
+      <class name="EmailMarketingScenarios.EmailMarketing_EventTriggerViewCart"/>
+      <class name="EmailMarketingScenarios.EmailMarketing_Fallback"/> 
+      <class name="EmailMarketingScenarios.EmailMarketing_OneToOneCampaign"/>
+      <class name="EmailMarketingScenarios.EmailMarketing_Promocode"/>
+      <class name="EmailMarketingScenarios.EmailMarketing_TestMail"/>  
+      <class name="EmailMarketingScenarios.EmailMarketing_Overview"/>
+      <class name="EmailMarketingScenarios.EmailMarketing_Templates"/>
+      <class name="EmailMarketingScenarios.EmailMarketing_Broadcast"/>
+      <class name="EmailMarketingScenarios.EmailMarketing_OneToOneCampaign"/>
+      <class name="EmailMarketingScenarios.EmailMarketing_VerifyEmailsToValidAndInvalid"/>
+      <class name="EmailMarketingScenarios.EmailMarketing_Recurring_Daily"/>
+      <class name="EmailMarketingScenarios.EmailMarketing_Recurring_Monthly"/>
+      <class name="EmailMarketingScenarios.EmailMarketing_Recurring_Weekly"/>
+   
+      <class name="CartRecoveryScenarios.CartRecovery_Campaign_1sequence_Fallback"/>
+      <class name="CartRecoveryScenarios.CartRecoveryWithPromocode2sequences"/>
+      
+      <class name="SMSMarketingScenarios.SMSMarketing_BroadcastCampaign"/>
+	  <class name="SMSMarketingScenarios.SMSMarketing_OneToOneCampaign"/>
+	  <class name="SMSMarketingScenarios.SMSMarketing_Overview"/>
+	  <class name="SMSMarketingScenarios.SMSMarketing_RecurringDaily"/>
+	  <class name="SMSMarketingScenarios.SMSMarketing_RecurringMonthly"/>
+	  <class name="SMSMarketingScenarios.SMSMarketing_RecurringWeekly"/>
+	  <class name="SMSMarketingScenarios.SMSMarketing_SupressionBlacklist"/>
+	  <class name="SMSMarketingScenarios.SMSMarketing_SupressionDND"/>
+	  <class name="SMSMarketingScenarios.SMSMarketing_SupressionInvalidSubscriber"/>
+	  <class name="SMSMarketingScenarios.SMSMarketing_TestSMS"/>
+   
+      
+    </classes>
+ </test>
+</suite>

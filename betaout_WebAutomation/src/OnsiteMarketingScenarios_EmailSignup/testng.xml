@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Onsite_EmailSignup" verbose="1" >
+  <test name="EmailSignup_RegressionTest" >
+    <classes>
+     
+      <class name="OnsiteMarketingScenarios_EmailSignup.EmailSignupPopup"/>
+      <class name="OnsiteMarketingScenarios_EmailSignup.EmailSignupPullout"/>
+      <class name="OnsiteMarketingScenarios_EmailSignup.EmailSignupStickyBar"/>
+      <class name="OnsiteMarketingScenarios_EmailSignup.EmailSignupInline"/>
+      <class name="OnsiteMarketingScenarios_EmailSignup.EmailSignupBanner"/>
+      
+    </classes>
+ </test>
+</suite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Email Marketing Scenarios" verbose="1" >
+  <test name="Email Marketing Smoke Scenarios" >
+    <classes>
+     
+      <class name="DataImport_Scenarios.BounceListImport_QA"/>
+      <class name="DataImport_Scenarios.OrderImport_QA"/>
+      <class name="DataImport_Scenarios.ProductImport_QA"/>
+   	  <class name="DataImport_Scenarios.SMSSuppressionBlacklistImport_QA"/>   
+      <class name="DataImport_Scenarios.SpamComplaintsListImport_QA"/>
+      <class name="DataImport_Scenarios.UnsubscribeListImport_QA"/>
+      <class name="DataImport_Scenarios.UserImport_QA"/>
+     
+     
+     
+          </classes>
+ </test>
+</suite>

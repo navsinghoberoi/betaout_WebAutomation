@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Onsite Marketing Scenarios" verbose="1" >
+  <test name="Onsite Marketing and Promocode Test" >
+    <classes>
+      
+      <class name="PromocodeScenarios_CTA.Promocode_CTAPopup"/>
+      <class name="PromocodeScenarios_CTA.Promocode_CTAPullout"/>
+      <class name="PromocodeScenarios_CTA.Promocode_CTAStickybar"/>
+      <class name="PromocodeScenarios_CTA.Promocode_CTAInline"/>
+      <class name="PromocodeScenarios_CTA.Promocode_CTABanner"/>
+      
+      <class name="PromocodeScenarios_EmailSignup.Promocode_EmailSignupPopup"/>
+      <class name="PromocodeScenarios_EmailSignup.Promocode_EmailSignupPullout"/>
+      <class name="PromocodeScenarios_EmailSignup.Promocode_EmailSignupStickyBar"/>
+      <class name="PromocodeScenarios_EmailSignup.Promocode_EmailSignupInline"/>
+      <class name="PromocodeScenarios_EmailSignup.Promocode_EmailSignupBanner"/>
+      
+      <class name="PromocodeScenarios_Mobile.Promocode_MobilePopup"/>
+      <class name="PromocodeScenarios_Mobile.Promocode_MobilePullout"/>
+      <class name="PromocodeScenarios_Mobile.Promocode_MobileStickyBar"/>
+      <class name="PromocodeScenarios_Mobile.Promocode_MobileInline"/>
+      <class name="PromocodeScenarios_Mobile.Promocode_MobileBanner"/> 
+   
+      
+    
+      
+    </classes>
+ </test>
+</suite>

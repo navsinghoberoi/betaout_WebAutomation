@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Email Marketing Scenarios" verbose="1" >
+  <test name="Email Marketing Smoke Scenarios" >
+    <classes>
+     
+      <class name="MachineLearningScenarios.MachineLearning_EnableAllTemplates"/>
+      <class name="MachineLearningScenarios.ViewedAlsoViewed_CTAPopup"/>
+      <class name="MachineLearningScenarios.ViewedAlsoViewed_CTAPullout"/>
+      <class name="MachineLearningScenarios.MachineLearning_EnableAllTemplates"/>
+      
+      
+          </classes>
+ </test>
+</suite>

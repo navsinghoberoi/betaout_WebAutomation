@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Onsite_Mobile" verbose="1" >
+  <test name="Mobile_RegressionTest" >
+    <classes>
+     
+      <class name="OnsiteMarketingScenarios_Mobile.MobilePopup"/>
+      <class name="OnsiteMarketingScenarios_Mobile.MobilePullout"/>
+      <class name="OnsiteMarketingScenarios_Mobile.MobileStickyBar"/>
+      <class name="OnsiteMarketingScenarios_Mobile.MobileInline"/>
+      <class name="OnsiteMarketingScenarios_Mobile.MobileBanner"/>
+      
+    </classes>
+ </test>
+</suite>
